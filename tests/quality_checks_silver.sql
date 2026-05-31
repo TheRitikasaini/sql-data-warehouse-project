@@ -120,7 +120,7 @@ ORDER BY sls_sales, sls_quantity, sls_price;
 -- Checking 'silver.erp_cust_az12'
 -- ====================================================================
 -- Identify Out-of-Range Dates
--- Expectation: Birthdates between 1924-01-01 and Today
+-- Expectation: Birthdates before 1924-01-01 and after Today
 SELECT DISTINCT 
     bdate 
 FROM silver.erp_cust_az12
