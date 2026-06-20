@@ -1,4 +1,4 @@
--- 12. Reporting
+-- Customer Report
 /* 
 This report consolidates key customer metrics and behaviors
 
