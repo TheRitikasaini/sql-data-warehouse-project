@@ -1,0 +1,46 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.vs/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Local database and warehouse artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.bak
+*.mdf
+*.ldf
+*.parquet
+*.csv.gz
+
+# Build and output directories
+dist/
+build/
+out/
+output/
+artifacts/
+reports/
